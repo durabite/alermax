@@ -18,6 +18,9 @@ body {
     background-color: $bg-gris;
     width: 100%;
     height: 100vh;
+    background-image: url(../image/linea-roja.svg);
+    background-repeat: no-repeat;
+    background-position: 48% 50%;
 }
 #sticky-header {
     background-color: $bg-gris;
@@ -86,12 +89,6 @@ body {
     left: 150px;
 }
 
-// About 
-.about {
-    background-image: url(../image/bg-pattern.png);
-    width: 100%;
-    height: 100vh;
-}
 .img-box-ux {
     width: 100%;
     text-align: right;
@@ -103,7 +100,7 @@ body {
     color: $gris;
     font-size: 1.1rem;
     font-weight: bold;
-    padding: 1rem 2rem;
+    padding: 0.2rem 1rem;
     text-decoration: none;
     transition: background-color 300ms, color 300ms;
     img {
@@ -113,4 +110,47 @@ body {
 .btn-pdf:hover {
     background-color: $gris;
     color: white;
+}
+.texto-cel-correo {
+    padding: 0;
+    p {
+        padding: 0;
+        margin: 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: $gris;
+    }
+}
+#redes-sociales-links {
+    list-style: none;
+    display: inline-flex;
+    li {
+        margin: 40px 8px;
+        width: 60px;
+        a {
+            position: relative;
+            img {
+                width: 100%;
+            }
+        }
+        a:hover {
+
+        }
+    }
+}
+.divisor {
+    font-size: 4rem;
+    color: $gris;
+    font-weight: bold;
+}
+.titulos-secciones {
+    color: $gris;
+    font-size: 2rem;
+}
+// About 
+.about {
+    background-image: url(../image/bg-pattern.png);
+    width: 100%;
+    height: 100vh;
+    padding-top: 7rem;
 }

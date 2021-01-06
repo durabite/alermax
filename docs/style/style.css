@@ -13,6 +13,9 @@ body {
   background-color: #F6F6F6;
   width: 100%;
   height: 100vh;
+  background-image: url(../image/linea-roja.svg);
+  background-repeat: no-repeat;
+  background-position: 48% 50%;
 }
 
 #sticky-header {
@@ -97,12 +100,6 @@ body {
   left: 150px;
 }
 
-.about {
-  background-image: url(../image/bg-pattern.png);
-  width: 100%;
-  height: 100vh;
-}
-
 .img-box-ux {
   width: 100%;
   text-align: right;
@@ -115,7 +112,7 @@ body {
   color: #4C4C4C;
   font-size: 1.1rem;
   font-weight: bold;
-  padding: 1rem 2rem;
+  padding: 0.2rem 1rem;
   text-decoration: none;
   -webkit-transition: background-color 300ms, color 300ms;
   transition: background-color 300ms, color 300ms;
@@ -128,5 +125,55 @@ body {
 .btn-pdf:hover {
   background-color: #4C4C4C;
   color: white;
+}
+
+.texto-cel-correo {
+  padding: 0;
+}
+
+.texto-cel-correo p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #4C4C4C;
+}
+
+#redes-sociales-links {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#redes-sociales-links li {
+  margin: 40px 8px;
+  width: 60px;
+}
+
+#redes-sociales-links li a {
+  position: relative;
+}
+
+#redes-sociales-links li a img {
+  width: 100%;
+}
+
+.divisor {
+  font-size: 4rem;
+  color: #4C4C4C;
+  font-weight: bold;
+}
+
+.titulos-secciones {
+  color: #4C4C4C;
+  font-size: 2rem;
+}
+
+.about {
+  background-image: url(../image/bg-pattern.png);
+  width: 100%;
+  height: 100vh;
+  padding-top: 7rem;
 }
 /*# sourceMappingURL=style.css.map */
